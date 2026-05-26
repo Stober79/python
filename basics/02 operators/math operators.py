@@ -1,0 +1,16 @@
+a=12
+b=3
+result= a + b; print(result)
+result= a - b; print(result)
+result= a * b; print(result)
+result= a / b; print(result)
+result= a % b; print(result)
+result= a ** b; print(result)
+result= 20 // 3; print(result)
+a+=2; print(a)
+a-=2; print(a)
+a*=2; print(a)
+a/=2; print(a)
+a%=5; print(a)
+a**=3; print(a) 
+a//=2; print(a)   

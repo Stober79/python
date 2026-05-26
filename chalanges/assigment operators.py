@@ -1,0 +1,13 @@
+balance = 1000
+balance += 7000
+print("saldo : ",balance)
+balance -= 2000
+print("saldo : ",balance)
+balance *= 3
+print("saldo : ",balance)
+balance -= 4000
+print("saldo : ",balance)
+balance += 4000
+balance /= 3
+balance -= 4000
+print("saldo : ",balance)

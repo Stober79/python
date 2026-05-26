@@ -1,0 +1,7 @@
+print("Proszę podać swoje imię: ")
+name = input()
+print("Proszę podać swoje nazwisko: ")
+surname = input()
+print("Podaj miaasto pochodzenia:   ")
+city = input()
+print("Witaj " + name + " " + surname + " z " + city + "!")

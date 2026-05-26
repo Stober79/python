@@ -1,0 +1,17 @@
+numbers =[7,8,9,10,11,12]
+print(numbers)
+tupleNumbers = tuple(numbers)
+print(tupleNumbers)
+mixedLIst = [1, "Ola", 3.14, True]
+print(mixedLIst)
+setMixed = set(mixedLIst)
+print(setMixed)
+print(type(setMixed))
+frozenSetNumbers = frozenset(tupleNumbers)
+print(frozenSetNumbers)
+print(type(frozenSetNumbers))
+nameAgePairs = (("Robert", 30), ("Adam", 25), ("Ewa", 28))
+ageDict = dict(nameAgePairs)
+print(ageDict)
+print(type(ageDict))
+print("Wiek Roberta: " + str(ageDict["Robert"]) + " lat")
